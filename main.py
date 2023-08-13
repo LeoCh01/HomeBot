@@ -1,6 +1,4 @@
-import asyncio
-import discord
-from discord.ext import commands
+import bot
 
-client = commands.Bot(command_prefix='!', intents=discord.Intents.all())
-client.run()
+if __name__ == '__main__':
+  bot.run_bot()
